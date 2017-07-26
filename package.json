@@ -1,6 +1,6 @@
 {
   "name": "@angular-librarian/scoped-lib",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Scoped Lib, an Angular library",
   "main": "./bundles/scoped-lib.umd.js",
   "scripts": {
@@ -23,6 +23,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gonzofish/angular-librarian-scoped/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   },
   "homepage": "https://github.com/gonzofish/angular-librarian-scoped#readme",
   "devDependencies": {
