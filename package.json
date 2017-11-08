@@ -1,6 +1,6 @@
 {
   "name": "@angular-librarian/scoped-lib",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Scoped Lib, an Angular library",
   "main": "./bundles/scoped-lib.umd.js",
   "scripts": {
