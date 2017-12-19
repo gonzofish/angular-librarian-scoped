@@ -1,5 +1,6 @@
 /* ts-lint:disable:no-unused-variable */
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { FormsModule } from '@angular/forms';
 import { HelloEweComponent } from './hello-ewe.component';
 
 describe('HelloEweComponent', () => {
@@ -10,7 +11,8 @@ describe('HelloEweComponent', () => {
         TestBed.configureTestingModule({
             declarations: [
                 HelloEweComponent
-            ]
+            ],
+            imports: [FormsModule]
         });
         TestBed.compileComponents();
     }));

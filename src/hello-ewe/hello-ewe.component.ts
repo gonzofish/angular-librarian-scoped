@@ -8,5 +8,6 @@ import {
     templateUrl: './hello-ewe.component.html'
 })
 export class HelloEweComponent {
+    name = '';
     constructor() {}
 }
